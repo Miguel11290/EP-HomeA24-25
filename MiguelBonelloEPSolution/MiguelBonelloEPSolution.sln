@@ -5,6 +5,10 @@ VisualStudioVersion = 17.13.35828.75 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiguelBonelloEPSolution", "MiguelBonelloEPSolution\MiguelBonelloEPSolution.csproj", "{01E61253-DE01-4D32-BA3B-C107FBAD5286}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{B1CA2B51-2170-4869-BFF7-17EDB64D3F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{D22394A6-6549-4CC4-BB61-FF0FC677ADAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{01E61253-DE01-4D32-BA3B-C107FBAD5286}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01E61253-DE01-4D32-BA3B-C107FBAD5286}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01E61253-DE01-4D32-BA3B-C107FBAD5286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1CA2B51-2170-4869-BFF7-17EDB64D3F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CA2B51-2170-4869-BFF7-17EDB64D3F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1CA2B51-2170-4869-BFF7-17EDB64D3F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1CA2B51-2170-4869-BFF7-17EDB64D3F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22394A6-6549-4CC4-BB61-FF0FC677ADAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22394A6-6549-4CC4-BB61-FF0FC677ADAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22394A6-6549-4CC4-BB61-FF0FC677ADAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22394A6-6549-4CC4-BB61-FF0FC677ADAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

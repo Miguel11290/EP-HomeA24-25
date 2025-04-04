@@ -214,35 +214,6 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
-      },
-      "DataAccess/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "8.0.14",
-          "Microsoft.EntityFrameworkCore.InMemory": "8.0.14"
-        },
-        "compile": {
-          "bin/placeholder/DataAccess.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DataAccess.dll": {}
-        }
-      },
-      "Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "8.0.14",
-          "Microsoft.EntityFrameworkCore.InMemory": "8.0.14"
-        },
-        "compile": {
-          "bin/placeholder/Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Domain.dll": {}
-        }
       }
     }
   },
@@ -613,21 +584,10 @@
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "DataAccess/1.0.0": {
-      "type": "project",
-      "path": "../DataAccess/DataAccess.csproj",
-      "msbuildProject": "../DataAccess/DataAccess.csproj"
-    },
-    "Domain/1.0.0": {
-      "type": "project",
-      "path": "../Domain/Domain.csproj",
-      "msbuildProject": "../Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "DataAccess >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.14",
       "Microsoft.EntityFrameworkCore.InMemory >= 8.0.14"
     ]
@@ -639,11 +599,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj",
-      "projectName": "MiguelBonelloEPSolution",
-      "projectPath": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj",
+      "projectUniqueName": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\Domain\\Domain.csproj",
+      "projectName": "Domain",
+      "projectPath": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Miguel Bonello\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\obj\\",
+      "outputPath": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -664,11 +624,7 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {
-            "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\DataAccess\\DataAccess.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -708,9 +664,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

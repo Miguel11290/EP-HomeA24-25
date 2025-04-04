@@ -1,0 +1,14 @@
+﻿@page
+@model MiguelBonelloEPSolution.Pages.Polls.IndexModel
+@{
+    ViewData["Title"] = "Polls";
+}
+
+<h1>Polls</h1>
+
+<ul>
+    @foreach (var poll in Model.Polls)
+    {
+        <li>@poll.Question</li>
+    }
+</ul>
