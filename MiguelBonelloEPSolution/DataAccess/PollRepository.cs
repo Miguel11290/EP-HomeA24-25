@@ -1,10 +1,5 @@
 ﻿using Domain;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataAccess
 {
@@ -17,7 +12,7 @@ namespace DataAccess
             _context = context;
         }
 
-        public async Task<List<Poll>> GetAllPollsAsync()
+        public async Task<List<Poll>> GetPollsAsync()
         {
             return await _context.Polls.ToListAsync();
         }
@@ -29,7 +24,7 @@ namespace DataAccess
 
         public async Task AddPollAsync(Poll poll)
         {
-            await _context.Polls.AddAsync(poll);
+            _context.Polls.Add(poll);
             await _context.SaveChangesAsync();
         }
 
@@ -60,11 +55,16 @@ namespace DataAccess
                 Option1VotesCount = 0,
                 Option2VotesCount = 0,
                 Option3VotesCount = 0,
-                DateCreated = DateTime.Now
+                DateCreated = DateTime.UtcNow
             };
 
             _context.Polls.Add(poll);
             await _context.SaveChangesAsync();
+        }
+
+        public async Task<IEnumerable<Poll>> GetPolls()
+        {
+            return await _context.Polls.OrderByDescending(p => p.DateCreated).ToListAsync();
         }
     }
 }

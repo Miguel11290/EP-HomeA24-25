@@ -33,6 +33,7 @@ namespace MiguelBonelloEPSolution
             app.UseAuthorization();
 
             app.MapRazorPages();
+            app.MapControllers();
 
             app.MapControllerRoute(
                 name: "default",

@@ -10,6 +10,7 @@ namespace Domain
     {
         public int Id { get; set; }
         public string Title { get; set; }
+        public string Question { get; set; }
         public string Option1Text { get; set; }
         public string Option2Text { get; set; }
         public string Option3Text { get; set; }
