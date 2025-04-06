@@ -1,14 +1,31 @@
 ﻿@page
 @model MiguelBonelloEPSolution.Pages.Polls.IndexModel
 @{
-    ViewData["Title"] = "Polls";
+    ViewData["Title"] = "All Polls";
 }
 
-<h1>Polls</h1>
+<h2>All Polls</h2>
 
-<ul>
-    @foreach (var poll in Model.Polls)
-    {
-        <li>@poll.Question</li>
-    }
-</ul>
+<a class="btn btn-success" asp-page="Create">+ Create New Poll</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Date Created</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var poll in Model.Polls)
+        {
+            <tr>
+                <td>@poll.Title</td>
+                <td>@poll.DateCreated.ToString("MM/dd/yyyy HH:mm")</td>
+                <td>
+                    <a class="btn btn-primary" asp-page="Vote" asp-route-id="@poll.Id">Vote</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

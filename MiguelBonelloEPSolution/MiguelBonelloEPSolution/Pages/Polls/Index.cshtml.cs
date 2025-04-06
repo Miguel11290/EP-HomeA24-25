@@ -1,23 +1,24 @@
 using DataAccess;
 using Domain;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MiguelBonelloEPSolution.Pages.Polls
 {
     public class IndexModel : PageModel
     {
-        private readonly PollRepository _pollRepository;
+        private readonly IPollRepository _pollRepository;
 
-        public IndexModel(PollRepository pollRepository)
+        public IndexModel(IPollRepository pollRepository)
         {
             _pollRepository = pollRepository;
+            Polls = new List<Poll>(); // Initialize the Polls property
         }
 
-        public List<Poll> Polls { get; set; }
+        public IEnumerable<Poll> Polls { get; set; }
 
-        public void OnGetAsync()
+        public void OnGet()
         {
+            Polls = _pollRepository.GetPolls();
         }
     }
 }

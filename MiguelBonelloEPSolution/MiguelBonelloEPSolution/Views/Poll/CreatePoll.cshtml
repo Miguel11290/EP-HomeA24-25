@@ -1,0 +1,27 @@
+﻿@model Domain.Poll
+
+<h2>Create Poll</h2>
+
+<form method="post" asp-action="CreatePoll">
+    <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" class="form-control" id="title" name="Title" required />
+    </div>
+    <div class="form-group">
+        <label for="question">Question</label>
+        <input type="text" class="form-control" id="question" name="Question" required />
+    </div>
+    <div class="form-group">
+        <label for="option1Text">Option 1</label>
+        <input type="text" class="form-control" id="option1Text" name="Option1Text" required />
+    </div>
+    <div class="form-group">
+        <label for="option2Text">Option 2</label>
+        <input type="text" class="form-control" id="option2Text" name="Option2Text" required />
+    </div>
+    <div class="form-group">
+        <label for="option3Text">Option 3</label>
+        <input type="text" class="form-control" id="option3Text" name="Option3Text" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Create Poll</button>
+</form>

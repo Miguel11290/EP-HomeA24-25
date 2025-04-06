@@ -3,36 +3,108 @@
   "WorkspaceRootPath": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\miguelbonelloepsolution\\pages\\polls\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|solutionrelative:miguelbonelloepsolution\\pages\\polls\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D22394A6-6549-4CC4-BB61-FF0FC677ADAE}|DataAccess\\DataAccess.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\dataaccess\\pollrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22394A6-6549-4CC4-BB61-FF0FC677ADAE}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\pollrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22394A6-6549-4CC4-BB61-FF0FC677ADAE}|DataAccess\\DataAccess.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\dataaccess\\ipollrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22394A6-6549-4CC4-BB61-FF0FC677ADAE}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\ipollrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\miguelbonelloepsolution\\pages\\polls\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|solutionrelative:miguelbonelloepsolution\\pages\\polls\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\miguelbonelloepsolution\\pages\\polls\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|solutionrelative:miguelbonelloepsolution\\pages\\polls\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\miguelbonelloepsolution\\filters\\voteoncefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|solutionrelative:miguelbonelloepsolution\\filters\\voteoncefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\miguelbonelloepsolution\\pages\\polls\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|solutionrelative:miguelbonelloepsolution\\pages\\polls\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\miguelbonelloepsolution\\pages\\polls\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|solutionrelative:miguelbonelloepsolution\\pages\\polls\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\miguelbonelloepsolution\\views\\poll\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|solutionrelative:miguelbonelloepsolution\\views\\poll\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1CA2B51-2170-4869-BFF7-17EDB64D3F6F}|Domain\\Domain.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\domain\\poll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1CA2B51-2170-4869-BFF7-17EDB64D3F6F}|Domain\\Domain.csproj|solutionrelative:domain\\poll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\miguelbonelloepsolution\\views\\poll\\createpoll.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|solutionrelative:miguelbonelloepsolution\\views\\poll\\createpoll.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\miguelbonelloepsolution\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|solutionrelative:miguelbonelloepsolution\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\miguelbonelloepsolution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|solutionrelative:miguelbonelloepsolution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\miguelbonelloepsolution\\controllers\\pollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|solutionrelative:miguelbonelloepsolution\\controllers\\pollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\miguelbonelloepsolution\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|solutionrelative:miguelbonelloepsolution\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D22394A6-6549-4CC4-BB61-FF0FC677ADAE}|DataAccess\\DataAccess.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\dataaccess\\pollrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D22394A6-6549-4CC4-BB61-FF0FC677ADAE}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\pollrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D22394A6-6549-4CC4-BB61-FF0FC677ADAE}|DataAccess\\DataAccess.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\dataaccess\\polldbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22394A6-6549-4CC4-BB61-FF0FC677ADAE}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\polldbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D22394A6-6549-4CC4-BB61-FF0FC677ADAE}|DataAccess\\DataAccess.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\dataaccess\\polldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D22394A6-6549-4CC4-BB61-FF0FC677ADAE}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\polldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\miguelbonelloepsolution\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|solutionrelative:miguelbonelloepsolution\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\miguelbonelloepsolution\\controllers\\pollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|solutionrelative:miguelbonelloepsolution\\controllers\\pollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22394A6-6549-4CC4-BB61-FF0FC677ADAE}|DataAccess\\DataAccess.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\dataaccess\\pollfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22394A6-6549-4CC4-BB61-FF0FC677ADAE}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\pollfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\miguelbonelloepsolution\\views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|solutionrelative:miguelbonelloepsolution\\views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\miguelbonelloepsolution\\views\\poll\\results.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|solutionrelative:miguelbonelloepsolution\\views\\poll\\results.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1CA2B51-2170-4869-BFF7-17EDB64D3F6F}|Domain\\Domain.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\domain\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1CA2B51-2170-4869-BFF7-17EDB64D3F6F}|Domain\\Domain.csproj|solutionrelative:domain\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\miguelbonelloepsolution\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|solutionrelative:miguelbonelloepsolution\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\miguelbonelloepsolution\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E61253-DE01-4D32-BA3B-C107FBAD5286}|MiguelBonelloEPSolution\\MiguelBonelloEPSolution.csproj|solutionrelative:miguelbonelloepsolution\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22394A6-6549-4CC4-BB61-FF0FC677ADAE}|DataAccess\\DataAccess.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\dataaccess\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22394A6-6549-4CC4-BB61-FF0FC677ADAE}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1CA2B51-2170-4869-BFF7-17EDB64D3F6F}|Domain\\Domain.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1CA2B51-2170-4869-BFF7-17EDB64D3F6F}|Domain\\Domain.csproj|solutionrelative:domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1CA2B51-2170-4869-BFF7-17EDB64D3F6F}|Domain\\Domain.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\domain\\poll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1CA2B51-2170-4869-BFF7-17EDB64D3F6F}|Domain\\Domain.csproj|solutionrelative:domain\\poll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22394A6-6549-4CC4-BB61-FF0FC677ADAE}|DataAccess\\DataAccess.csproj|c:\\users\\miguel bonello\\documents\\github\\ep-homea24-25\\miguelbonelloepsolution\\dataaccess\\migrations\\20250404185709_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22394A6-6549-4CC4-BB61-FF0FC677ADAE}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20250404185709_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,76 +114,323 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Views\\Poll\\Index.cshtml",
-              "RelativeDocumentMoniker": "MiguelBonelloEPSolution\\Views\\Poll\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Views\\Poll\\Index.cshtml",
-              "RelativeToolTip": "MiguelBonelloEPSolution\\Views\\Poll\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T00:28:09.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PollController.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Controllers\\PollController.cs",
-              "RelativeDocumentMoniker": "MiguelBonelloEPSolution\\Controllers\\PollController.cs",
-              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Controllers\\PollController.cs",
-              "RelativeToolTip": "MiguelBonelloEPSolution\\Controllers\\PollController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T00:08:23.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Program.cs",
-              "RelativeDocumentMoniker": "MiguelBonelloEPSolution\\Program.cs",
-              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Program.cs",
-              "RelativeToolTip": "MiguelBonelloEPSolution\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T23:51:20.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Pages\\Polls\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "MiguelBonelloEPSolution\\Pages\\Polls\\Index.cshtml.cs",
               "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Pages\\Polls\\Index.cshtml.cs",
               "RelativeToolTip": "MiguelBonelloEPSolution\\Pages\\Polls\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T23:48:57.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPollRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\DataAccess\\IPollRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\IPollRepository.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\DataAccess\\IPollRepository.cs",
+              "RelativeToolTip": "DataAccess\\IPollRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T10:42:09.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Pages\\Polls\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "MiguelBonelloEPSolution\\Pages\\Polls\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Pages\\Polls\\Details.cshtml.cs",
+              "RelativeToolTip": "MiguelBonelloEPSolution\\Pages\\Polls\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T09:47:46.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreatePoll.cshtml",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Views\\Poll\\CreatePoll.cshtml",
+              "RelativeDocumentMoniker": "MiguelBonelloEPSolution\\Views\\Poll\\CreatePoll.cshtml",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Views\\Poll\\CreatePoll.cshtml",
+              "RelativeToolTip": "MiguelBonelloEPSolution\\Views\\Poll\\CreatePoll.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T14:45:20.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PollDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\DataAccess\\PollDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\PollDbContext.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\DataAccess\\PollDbContext.cs",
+              "RelativeToolTip": "DataAccess\\PollDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T23:43:35.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Program.cs",
+              "RelativeDocumentMoniker": "MiguelBonelloEPSolution\\Program.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Program.cs",
+              "RelativeToolTip": "MiguelBonelloEPSolution\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T23:51:20.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VoteOnceFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Filters\\VoteOnceFilter.cs",
+              "RelativeDocumentMoniker": "MiguelBonelloEPSolution\\Filters\\VoteOnceFilter.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Filters\\VoteOnceFilter.cs",
+              "RelativeToolTip": "MiguelBonelloEPSolution\\Filters\\VoteOnceFilter.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:36:05.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PollRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\DataAccess\\PollRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\PollRepository.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\DataAccess\\PollRepository.cs",
+              "RelativeToolTip": "DataAccess\\PollRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T23:44:51.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Pages\\Polls\\Details.cshtml",
+              "RelativeDocumentMoniker": "MiguelBonelloEPSolution\\Pages\\Polls\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Pages\\Polls\\Details.cshtml",
+              "RelativeToolTip": "MiguelBonelloEPSolution\\Pages\\Polls\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T09:43:03.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MiguelBonelloEPSolution\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MiguelBonelloEPSolution\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T14:45:54.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Pages\\Polls\\Index.cshtml",
               "RelativeDocumentMoniker": "MiguelBonelloEPSolution\\Pages\\Polls\\Index.cshtml",
               "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Pages\\Polls\\Index.cshtml",
               "RelativeToolTip": "MiguelBonelloEPSolution\\Pages\\Polls\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-03T23:47:28.917Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiguelBonelloEPSolution\\Views\\Account\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "MiguelBonelloEPSolution\\Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T14:39:11.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PollDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\DataAccess\\PollDbContextFactory.cs",
+              "RelativeDocumentMoniker": "DataAccess\\PollDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\DataAccess\\PollDbContextFactory.cs",
+              "RelativeToolTip": "DataAccess\\PollDbContextFactory.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T18:47:47.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Views\\Poll\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiguelBonelloEPSolution\\Views\\Poll\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Views\\Poll\\Index.cshtml",
+              "RelativeToolTip": "MiguelBonelloEPSolution\\Views\\Poll\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T00:28:09.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250404185709_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\DataAccess\\Migrations\\20250404185709_InitialMigration.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250404185709_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\DataAccess\\Migrations\\20250404185709_InitialMigration.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20250404185709_InitialMigration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T18:57:09.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiguelBonelloEPSolution\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MiguelBonelloEPSolution\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T14:39:47.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PollController.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Controllers\\PollController.cs",
+              "RelativeDocumentMoniker": "MiguelBonelloEPSolution\\Controllers\\PollController.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Controllers\\PollController.cs",
+              "RelativeToolTip": "MiguelBonelloEPSolution\\Controllers\\PollController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwC8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T00:08:23.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PollFileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\DataAccess\\PollFileRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\PollFileRepository.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\DataAccess\\PollFileRepository.cs",
+              "RelativeToolTip": "DataAccess\\PollFileRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T10:11:22.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\DataAccess\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\DataAccess\\UserRepository.cs",
+              "RelativeToolTip": "DataAccess\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:19:00.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MiguelBonelloEPSolution\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MiguelBonelloEPSolution\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:22:02.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MiguelBonelloEPSolution\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MiguelBonelloEPSolution\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T13:31:18.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Vote.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\Domain\\Vote.cs",
+              "RelativeDocumentMoniker": "Domain\\Vote.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\Domain\\Vote.cs",
+              "RelativeToolTip": "Domain\\Vote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:44:50.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Views\\Home\\Error.cshtml",
+              "RelativeDocumentMoniker": "MiguelBonelloEPSolution\\Views\\Home\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Views\\Home\\Error.cshtml",
+              "RelativeToolTip": "MiguelBonelloEPSolution\\Views\\Home\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T14:40:13.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\User.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\Domain\\User.cs",
+              "RelativeToolTip": "Domain\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:17:32.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Results.cshtml",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Views\\Poll\\Results.cshtml",
+              "RelativeDocumentMoniker": "MiguelBonelloEPSolution\\Views\\Poll\\Results.cshtml",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\MiguelBonelloEPSolution\\Views\\Poll\\Results.cshtml",
+              "RelativeToolTip": "MiguelBonelloEPSolution\\Views\\Poll\\Results.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T11:34:38.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "Poll.cs",
               "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\Domain\\Poll.cs",
               "RelativeDocumentMoniker": "Domain\\Poll.cs",
@@ -119,34 +438,7 @@
               "RelativeToolTip": "Domain\\Poll.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T23:45:29.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PollRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\DataAccess\\PollRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\PollRepository.cs",
-              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\DataAccess\\PollRepository.cs",
-              "RelativeToolTip": "DataAccess\\PollRepository.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowEIAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T23:44:51.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PollDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\DataAccess\\PollDbContext.cs",
-              "RelativeDocumentMoniker": "DataAccess\\PollDbContext.cs",
-              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\EP-HomeA24-25\\MiguelBonelloEPSolution\\DataAccess\\PollDbContext.cs",
-              "RelativeToolTip": "DataAccess\\PollDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T23:43:35.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T23:45:29.336Z"
             }
           ]
         }

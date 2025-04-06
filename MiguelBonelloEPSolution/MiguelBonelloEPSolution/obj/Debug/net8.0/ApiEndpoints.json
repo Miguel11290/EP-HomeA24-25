@@ -1,0 +1,136 @@
+[
+  {
+    "ContainingType": "MiguelBonelloEPSolution.Controllers.PollController",
+    "Method": "Index",
+    "RelativePath": "Poll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiguelBonelloEPSolution.Controllers.PollController",
+    "Method": "Details",
+    "RelativePath": "Poll/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiguelBonelloEPSolution.Controllers.PollController",
+    "Method": "CreatePoll",
+    "RelativePath": "Poll/CreatePoll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiguelBonelloEPSolution.Controllers.PollController",
+    "Method": "CreatePoll",
+    "RelativePath": "Poll/CreatePoll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Question",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Option1Text",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Option2Text",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Option3Text",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Option1VotesCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Option2VotesCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Option3VotesCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DateCreated",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiguelBonelloEPSolution.Controllers.PollController",
+    "Method": "Results",
+    "RelativePath": "Poll/Results/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiguelBonelloEPSolution.Controllers.PollController",
+    "Method": "Vote",
+    "RelativePath": "Poll/Vote",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pollId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "option",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

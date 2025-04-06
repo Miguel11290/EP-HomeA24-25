@@ -1,0 +1,46 @@
+﻿@model Domain.Poll
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Poll Results</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h2>@Model.Title</h2>
+
+    <canvas id="pollResultsChart" width="400" height="200"></canvas>
+
+    <script>
+        var ctx = document.getElementById('pollResultsChart').getContext('2d');
+        var pollResultsChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Option 1', 'Option 2', 'Option 3'],
+                datasets: [{
+                    label: 'Votes',
+                    data: [@Model.Option1VotesCount, @Model.Option2VotesCount, @Model.Option3VotesCount],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(75, 192, 192, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(75, 192, 192, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

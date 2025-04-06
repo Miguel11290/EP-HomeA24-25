@@ -1,10 +1,27 @@
 ﻿@model IEnumerable<Domain.Poll>
 
-<h1>Polls</h1>
+<h2>All Polls</h2>
 
-<ul>
-    @foreach (var poll in Model)
-    {
-        <li><a href="/Poll/Vote/@poll.Id">@poll.Title</a> - @poll.DateCreated.ToString("g")</li>
-    }
-</ul>
+<a class="btn btn-success mb-3" asp-page="/Polls/CreatePoll">+ Create New Poll</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Date Created</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var poll in Model)
+        {
+            <tr>
+                <td>@poll.Title</td>
+                <td>@poll.DateCreated.ToString("MM/dd/yyyy HH:mm")</td>
+                <td>
+                    <a class="btn btn-primary" asp-page="/Polls/Details" asp-route-id="@poll.Id">Vote</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

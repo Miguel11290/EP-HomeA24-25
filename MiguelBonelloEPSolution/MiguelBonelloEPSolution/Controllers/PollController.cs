@@ -1,39 +1,80 @@
 ﻿using DataAccess;
 using Domain;
 using Microsoft.AspNetCore.Mvc;
+using MiguelBonelloEPSolution.Filters;
+using System.Linq;
 
 namespace MiguelBonelloEPSolution.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class PollController : Controller
     {
-        private readonly PollRepository _pollRepository;
+        private readonly IPollRepository _pollRepository;
 
         // Constructor
-        public PollController(PollRepository pollRepository)
+        public PollController(IPollRepository pollRepository)
         {
             _pollRepository = pollRepository;
         }
 
         [HttpGet]
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            var polls = await _pollRepository.GetPollsAsync();
+            var polls = _pollRepository.GetPolls();
             return View(polls);
+        }
+
+        [HttpGet("{id:int}")]
+        public IActionResult Details(int id)
+        {
+            var poll = _pollRepository.GetPollById(id);
+            if (poll == null)
+            {
+                return NotFound();
+            }
+            return View(poll);
+        }
+
+        [HttpGet]
+        [Route("CreatePoll")]
+        public IActionResult CreatePoll()
+        {
+            return View();
         }
 
         [HttpPost]
         [Route("CreatePoll")]
-        public async Task<IActionResult> CreatePoll([FromServices] PollRepository pollRepository, [FromBody] Poll poll)
+        public IActionResult CreatePoll([FromForm] Poll poll)
         {
-            if(poll == null)
+            if (!ModelState.IsValid)
             {
-                return BadRequest("Poll data is null");
+                return View(poll);
             }
 
-            await pollRepository.CreatePoll(poll.Title, poll.Option1Text, poll.Option2Text, poll.Option3Text);
-            return View("Poll created successfully");
+            _pollRepository.CreatePoll(poll.Title, poll.Question, poll.Option1Text, poll.Option2Text, poll.Option3Text);
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        [Route("Vote")]
+        [ServiceFilter(typeof(VoteOnceFilter))]
+        public IActionResult Vote(int pollId, int option)
+        {
+            _pollRepository.Vote(pollId, option);
+            return RedirectToAction("Details", new { id = pollId });
+        }
+
+        [HttpGet]
+        [Route("Results/{id:int}")]
+        public IActionResult Results(int id)
+        {
+            var poll = _pollRepository.GetPollById(id);
+            if (poll == null)
+            {
+                return NotFound();
+            }
+            return View(poll);
         }
     }
 }

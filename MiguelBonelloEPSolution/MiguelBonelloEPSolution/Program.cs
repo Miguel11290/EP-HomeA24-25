@@ -1,5 +1,7 @@
 using DataAccess;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using MiguelBonelloEPSolution.Filters;
 
 namespace MiguelBonelloEPSolution
 {
@@ -12,16 +14,31 @@ namespace MiguelBonelloEPSolution
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             builder.Services.AddRazorPages();
-            builder.Services.AddDbContext<PollDbContext>(options => options.UseInMemoryDatabase("PollDb"));
-            builder.Services.AddScoped<PollRepository>();
+            builder.Services.AddDbContext<PollDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddScoped<IPollRepository, PollRepository>();
+            builder.Services.AddScoped<VoteOnceFilter>();
+            builder.Services.AddSingleton<UserRepository>();
+
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.LoginPath = "/Account/Login";
+                });
 
             var app = builder.Build();
+
+            // Apply migrations and ensure the database is created.
+            using (var scope = app.Services.CreateScope())
+            {
+                var dbContext = scope.ServiceProvider.GetRequiredService<PollDbContext>();
+                dbContext.Database.Migrate();
+            }
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
@@ -30,6 +47,7 @@ namespace MiguelBonelloEPSolution
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapRazorPages();
@@ -43,3 +61,4 @@ namespace MiguelBonelloEPSolution
         }
     }
 }
+
